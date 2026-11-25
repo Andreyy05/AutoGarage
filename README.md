@@ -25,3 +25,9 @@ Moderní responzivní webová aplikace a PWA pro osobní evidenci údržby, opra
    Skript vytvoří tabulky ehicles, service_records, ecord_photos, nastaví Row Level Security (RLS) a založí soukromý bucket garage-media.
 3. Zkopírujte .env.example do .env.local a doplňte NEXT_PUBLIC_SUPABASE_URL a NEXT_PUBLIC_SUPABASE_ANON_KEY.
 4. Restartujte vývojový server a přihlaste se na /prihlaseni.
+
+## Nasazení na Vercel
+
+1. Importujte tento repozitář na [vercel.com/new](https://vercel.com/new).
+2. V nastavení projektu (*Environment Variables*) doplňte `NEXT_PUBLIC_SUPABASE_URL` a `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+3. Spusťte **Deploy**.
